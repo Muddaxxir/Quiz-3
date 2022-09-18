@@ -1,0 +1,89 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: #070640;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.inner-Conatiner {
+  height: 100%;
+  margin-inline: 8%;
+  background: rgba(255, 255, 255, 0.06);
+}
+.header-Wrap {
+  height: 14%;
+  margin: 10px 40px;
+  display: flex;
+  align-items: center;
+}
+.header-title {
+  color: #f84153;
+  font-size: 48px;
+  font-weight: bolder;
+}
+.links-Btn {
+  display: flex;
+}
+.links-Btn div {
+  width: 20%;
+  text-align: center;
+  padding-block: 15px;
+  color: #fff;
+  border-bottom: 2px solid #070640;
+  cursor: pointer;
+}
+.links-Btn div:hover {
+  border-bottom: 2px solid #fff;
+}
+.Content-Section {
+  display: flex;
+  height: 73%;
+}
+.image-Wrap {
+  height: 100%;
+  width: 50%;
+  padding-top: 20px;
+  /* border:1px solid gray ; */
+}
+.about-Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  width: 50%;
+  padding: 30px;
+}
+.about-Content-title {
+  color: #fff;
+  font-size: 34px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  word-spacing: 1.5px;
+}
+.about-Content-detail {
+  /* margin-block: 20px; */
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.8;
+  word-spacing: 2px;
+}
+.contact-btn {
+  /* margin-top: 20px; */
+}
+.contact-btn button {
+  padding: 10px 20px;
+
+  background: #f84153;
+  color: #fff;
+  border: 2px solid #f84153;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-family: "Poppins";
+}
+
+.contact-btn button:hover {
+  background: #070640;
+  font-weight: 600;
+}
